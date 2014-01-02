@@ -1,0 +1,1 @@
+&copy; <?php echo date('Y'); ?> ITS | All Rights Reserved

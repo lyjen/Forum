@@ -1,0 +1,391 @@
+/* CSS Document */
+#wrapper{
+margin:0px auto;
+padding:0px;
+width:950px;
+border:1px solid #CCCCCC;
+font-family:arial;
+background-color:#F7F7F7;
+}
+#header{
+background-color:#000033;
+width:950px;
+height:100px;
+}
+#header img{
+float:left;
+margin-left:40px;
+margin-top:7px;
+}
+#header h2{
+float:left;
+margin-left:40px;
+margin-top:40px;
+color:#CCCCCC;
+}
+#navigation, #head_navigation{
+width:950px;
+background-color:#000033;
+border-top:1px solid #CCCCCC;
+float:left;
+min-height:30px;
+font-size:12px;
+font-weight:bold;
+}
+#navigation ul{
+padding:0px;
+list-style-type:none;
+}
+#navigation ul li{
+display:inline;
+}
+#navigation li{
+display:block;
+padding:0px 70px;
+border-right:1px solid #CCCCCC;
+}
+#navigation li a {
+text-decoration:none;
+text-align:center;
+color:#CCCCCC;
+}
+#navigation li:last-child{
+border-right:none;
+}
+#main_content{
+background-color:#F7F7F7;
+}
+#left_content{
+float:left;
+width:650px;
+}
+#left_content h2{
+margin-top:50px;
+margin-left:30px;
+}
+#left_content img{
+height:400px;
+margin-left:120px;
+margin-top:40px;
+margin-bottom:60px;
+box-shadow:0 0 50px rgba(0,0,0,0.5);
+}
+#right_content{
+width:300px;
+margin-top:40px;
+float:right;
+}
+#right_content h6{
+margin-left:180px;
+}
+#right_content h5{
+font-style:italic;
+}
+#right_content span{
+color:#B00000;
+font-size:16px;
+}
+#right_content h4{
+margin-top:90px;
+font-size:14px;
+}
+#right_content form{
+margin-top:50px;
+margin-right:20px;
+font-size:13px;
+}
+#right_content label{
+float:left;
+background-color:#F7F7F7;
+margin-right:10px;
+margin-top:4px;
+}
+#right_content input[type='text']{
+float:right;
+width:145px;
+height:13px;
+margin-right:20px;
+margin-top:2px;
+}
+#right_content input[type='password']{
+float:right;
+width:145px;
+height:13px;
+margin-right:20px;
+margin-top:2px;
+}
+#right_content input[type='submit']{
+background-color:#000033;
+color:#FFFFFF;
+border:1px solid #000033;
+border-top-left-radius:1em;
+border-bottom-right-radius:1em;
+width:85px;
+height:28px;
+margin-top:2px;
+margin-right:50px;
+float:right;
+}
+.error-box {  
+color: #D8000C;
+background:#FFD5D5;
+margin-top:10px;
+font-size:14px;
+font-family:Arial;
+}
+.success-box, .warning-box{  
+border: 1px solid;  
+margin: 10px 0px;  
+padding:5px 5px 5px 30px;   
+background-position: 10px center;
+font-size:14px;
+font-family:Arial;
+color:#0099FF;
+background-color:#D5EAFF
+}
+#clear{
+clear:both;
+}
+#footer{
+width:950px;
+height:80px;
+background-color:#000033;
+color:#CCCCCC;
+}
+#footer p{
+float:right;
+margin-top:20px;
+margin-right:20px;
+font-size:12px;
+}
+#cover{
+padding:0px;
+margin:0px auto;
+margin-top:100px;
+width:400px;
+border:1px solid #CCCCCC;
+font-family:arial;
+background-color:#F7F7F7;
+}
+#registration img{
+float:left;
+margin-left:5px;
+margin-top:4px;
+}
+#registration h3{
+background-color:#000033;
+color:#FFFFFF;
+margin:0px;
+text-align:center;
+padding:5px;
+}
+#registration a{
+color:#FFFFFF;
+text-decoration:none;
+}
+#clear_right{
+clear:right;
+margin-bottom:20px;
+}
+#clear_left{
+clear:left;
+}
+#registration form{
+width:350px;
+margin-left:20px;
+}
+#registration label{
+float:left;
+margin-left:50px;
+margin-right:80px;
+}
+#registration input[type='text']{ 
+float:left;
+width:230px;
+height:13px;
+margin-left:50px;
+}
+#registration input[type='password']{
+float:left;
+width:230px;
+height:13px;
+margin-left:50px;
+}
+#registration input[type='submit']{
+background-color:#000033;
+color:#FFFFFF;
+border:1px solid #000033;
+border-top-left-radius:1em;
+border-bottom-right-radius:1em;
+width:85px;
+height:28px;
+float:left;
+margin-left:120px;
+margin-top:5px;
+margin-bottom:10px;
+}
+#head_navigation{
+color:#FFFFFF;
+}
+#head_navigation ul{
+list-style-type:none;
+padding:0px;
+float:right;
+margin-right:40px;
+}
+#head_navigation ul li{
+display:inline;
+}
+#head_navigation li{
+display:block;
+border-right:1px solid #CCCCCC;
+}
+#head_navigation li a{
+text-decoration:none;
+color:#FFFFFF;
+margin-left:7px;
+}
+#head_navigation li:last-child{
+border-right:none;
+}
+#main_content{
+min-height:500px;
+width:950px;
+}
+#user_details{
+width:230px;
+float:left;
+margin-top:40px;
+}
+#user_details img{
+margin-left:50px;
+}
+#user_details h4{
+text-align:center;
+}
+#user_details h6{
+text-align:center;
+}
+#wall{
+width:700px;
+float:right;
+border-left:1px solid #000066;
+}
+#wall h3{
+margin-top:40px;
+margin-left:30px;
+font-style:italic;
+}
+#post{
+margin-left:70px;
+}
+#post textarea{
+width:550px;
+height:50px;
+}
+#post input[type='submit']{
+background-color:#000033;
+color:#FFFFFF;
+border:1px solid #000033;
+border-top-left-radius:1em;
+border-bottom-right-radius:1em;
+width:85px;
+height:25px;
+float:right;
+margin-right:75px;
+}
+#wall h5{
+margin-left:30px;
+}
+#wall_posts{
+margin-left:70px;
+width:550px;
+box-shadow:0 0 50px rgba(0,0,0,0.5);
+}
+#wall_posts h4{
+float:left;
+margin right:5px;
+margin-left:5px;
+width:80px;
+}
+#wall_posts  p{
+float:left;
+margin-left:10px;
+margin-top:20px;
+width:420px;
+min-height:20px;
+white-space:pre-line;
+margin-bottom:0px;
+background-color:#EAEAEA;
+}
+#wall_posts  h6{
+float:right;
+margin-right:35px;
+margin-top:0px;
+margin-bottom:0px;
+font-size:10px;
+}
+#reply_posts{
+float:left;
+width:450px;
+margin-left:95px;
+margin-top:0px;
+}
+#reply_posts h5{
+float:left;
+margin-left:0px;
+margin-top:0px;
+width:70px;
+}
+#reply_posts p{
+float:left;
+width:350px;
+min-height:10px;
+white-space:pre-line;
+margin-left:0px;
+margin-top:0px;
+margin-bottom:0px;
+font-size:12px;
+}
+#reply_posts  h6{
+float:right;
+margin-right:30px;
+margin-top:0px;
+margin-bottom:0px;
+font-size:9px;
+}
+#wall_posts img{
+float:right;
+}
+#wall_posts form{
+margin-bottom:20px;
+clear:both;
+}
+#wall_posts textarea{
+margin-left:95px;
+width:415px;
+height:20px;
+}
+#wall_posts input[type='submit']{
+background-color:#000033;
+color:#FFFFFF;
+border:1px solid #000033;
+border-top-left-radius:1em;
+border-bottom-right-radius:1em;
+width:75px;
+height:20px;
+float:right;
+margin-right:35px;
+font-size:10px;
+margin-bottom:10px;
+border-bottom:1px solid #CCCCCC;
+}
+#content{
+width:400px;
+background-color:#CCCCCC;
+}
+#wall_posts span{
+color:#F7F7F7;
+clear:left;
+}
+
